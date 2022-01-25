@@ -50,11 +50,7 @@ const Post = ({props}) => {
             />
             <CardContent>
                 <Typography variant="body2" color="textSecondary" component="p"> 
-                    This is where the postbody will go so i'm
-                    just going to fill this with super random text, 
-                    maybe test my typing speed ahhhhhhhh, so 
-                    you can't hold down keys in vscode, that's not
-                    very cash money. 
+                    { props.text }
                 </Typography>
             </CardContent>
             <CardActions>
